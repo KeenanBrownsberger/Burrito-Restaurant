@@ -1,0 +1,90 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blue;
+    font-size: 300%;
+}
+
+h2 {
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+}
+
+h3 {
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: orangered;
+}
+
+h3.burrito-classification {
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: green;
+}
+
+strong {
+    font-variant: small-caps;
+}
+
+body {
+    margin: 10px;
+}
+
+p {
+    margin: 0px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    align-content: center;
+}
+
+.company {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.animated-burrito h3 {
+    margin: 10px;
+}
+
+.item-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2px;
+    transition: all 0.5s;
+    box-shadow: 2px 2px 2px lightgrey;
+    flex-shrink: 0;
+}
+
+.item-container:hover {
+    transform: scale(1.02);
+}
+
+.item-description {
+    padding: 0px;
+    line-height: 110%;
+    margin: 4px;
+}
+
+.animated-burrito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.disclaimer {
+    font-size: x-small;
+}
